@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asus.madproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/main"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".Login" />
+        <activity android:name=".Registration" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Add_New_Student" />
+        <activity android:name=".Student_Profile" />
+        <activity android:name=".Student_List" />
+        <activity android:name=".Add_New_Class" />
+        <activity android:name=".Class_Details" />
+        <activity android:name=".Class_List" />
+        <activity android:name=".Marks_Management" />
+        <activity android:name=".Marks_Details" />
+        <activity android:name=".Add_Exams" />
+        <activity android:name=".Exam_Details" />
+        <activity android:name=".Exam_List" />
+        <activity android:name=".dashboard" />
+        <activity android:name=".ClassMain" />
+        <activity android:name=".Student" />
+        <activity android:name=".Tutes" />
+        <activity android:name=".Results" />
+        <activity android:name=".Profile" />
+        <activity android:name=".ProfileMain" />
+        <activity android:name=".UpdateProfile" />
+        <activity android:name=".RemoveProfile" />
+        <activity android:name=".ForgotPassword"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asus.madproject"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="28" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@drawable/main"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity android:name="com.example.asus.madproject.Login" />
+        <activity android:name="com.example.asus.madproject.Registration" />
+        <activity android:name="com.example.asus.madproject.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.asus.madproject.Add_New_Student" />
+        <activity android:name="com.example.asus.madproject.Student_Profile" />
+        <activity android:name="com.example.asus.madproject.Student_List" />
+        <activity android:name="com.example.asus.madproject.Add_New_Class" />
+        <activity android:name="com.example.asus.madproject.Class_Details" />
+        <activity android:name="com.example.asus.madproject.Class_List" />
+        <activity android:name="com.example.asus.madproject.Marks_Management" />
+        <activity android:name="com.example.asus.madproject.Marks_Details" />
+        <activity android:name="com.example.asus.madproject.Add_Exams" />
+        <activity android:name="com.example.asus.madproject.Exam_Details" />
+        <activity android:name="com.example.asus.madproject.Exam_List" />
+        <activity android:name="com.example.asus.madproject.dashboard" />
+        <activity android:name="com.example.asus.madproject.ClassMain" />
+        <activity android:name="com.example.asus.madproject.Student" />
+        <activity android:name="com.example.asus.madproject.Tutes" />
+        <activity android:name="com.example.asus.madproject.Results" />
+        <activity android:name="com.example.asus.madproject.Profile" />
+        <activity android:name="com.example.asus.madproject.ProfileMain" />
+        <activity android:name="com.example.asus.madproject.UpdateProfile" />
+        <activity android:name="com.example.asus.madproject.RemoveProfile" />
+        <activity android:name="com.example.asus.madproject.ForgotPassword" />
+    </application>
+
+</manifest>
